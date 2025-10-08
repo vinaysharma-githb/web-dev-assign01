@@ -13,9 +13,9 @@ A personal portfolio website built using only HTML and CSS, showcasing projects,
 
 🧱 Tech Stack
 
-HTML5
+HTML
 
-CSS3
+CSS
 
 No JavaScript or external frameworks used (unless otherwise stated)
 
