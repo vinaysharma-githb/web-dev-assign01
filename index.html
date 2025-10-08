@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* ===== Reset some default styles ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+        section {
+            margin: 40px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #hero {
+            text-align: center;
+            background-color: #e0f7fa;
+        }
+
+        #About img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            color: #00796b;
+        }
+
+        dl dt {
+            font-weight: bold;
+            color: #333;
+        }
+
+        dl dd {
+            margin-left: 20px;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table th,
+        table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #009688;
+            color: white;
+        }
+
+        footer {
+            background-color: #222;
+            color: #fff;
+            padding: 30px 20px;
+            border-radius: 8px;
+        }
+
+        footer h2 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        form label {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        form input[type="submit"],
+        form input[type="reset"] {
+            width: auto;
+            background-color: #009688;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px 20px;
+            margin-right: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        form input[type="submit"]:hover,
+        form input[type="reset"]:hover {
+            background-color: #00796b;
+        }
+
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            form input,
+            form textarea {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Vinay Sharma</h1>
+        <nav>
+            <ul>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Hello! I am a web development student. This is my personal portfolio website with various details about me.</p>
+    </section>
+
+    <section id="About">
+        <h2>About Me</h2>
+        <img src="c:\Users\4AIN\OneDrive\Pictures\Camera Roll\vinu.jpg" alt="My Photo" height="400" width="400">
+        <p>I am passionate about learning web development and building creative projects.</p>
+    </section>
+
+    <section id="Projects">
+        <h2>My Projects</h2>
+        <dl>
+            <dt>1. Portfolio Website</dt>
+            <dd>- A personal one-page website to showcase your bio, skills, and collect details.</dd>
+
+            <dt>2. Medium Clone</dt>
+            <dd>- A simple blog layout that looks like Medium, built only with CSS and HTML.</dd>
+
+            <dt>3. Birthday Card</dt>
+            <dd>- A creative greeting card webpage designed with HTML structure and CSS styling.</dd>
+
+            <dt>4. User Form</dt>
+            <dd>- A form webpage with fields like name, email, bio, and message for practice form handling.</dd>
+        </dl>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Beginner</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <section id="Contact">
+            <h2>Contact Me</h2>
+            <form action="#">
+                <label for="Name">Name:</label>
+                <input type="text" id="Name" placeholder="Name" required>
+
+                <label for="Email">Email:</label>
+                <input type="email" name="Email" id="Email" placeholder="E-mail" required>
+
+                <label for="Message">Message:</label>
+                <textarea name="Message" id="Message" required placeholder="Message"></textarea>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+    </footer>
+
+</body>
+
+</html>
