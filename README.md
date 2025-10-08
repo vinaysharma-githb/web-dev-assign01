@@ -1,5 +1,21 @@
 # Vinay Sharma - Personal Portfolio Website
 
-Welcome to my personal portfolio website! This is a simple, single-page HTML website showcasing my background, projects, and contact information. It's a beginner-level project to help me practice and demonstrate basic web development skills.
 
- 
+A personal portfolio website built using only HTML and CSS, showcasing projects, skills, and contact information. Designed to be clean, responsive, and lightweight — perfect for hosting on GitHub Pages or any static site host.
+
+📁 Features
+
+📱 Responsive Design — Works on desktops, tablets, and mobile devices
+
+🎨 Custom CSS Styling — Fully styled with  CSS (no frameworks)
+
+⚡ Fast load time — no JS dependencies or heavy assets
+
+🧱 Tech Stack
+
+HTML5
+
+CSS3
+
+No JavaScript or external frameworks used (unless otherwise stated)
+
