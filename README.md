@@ -9,9 +9,7 @@ A personal portfolio website built using only HTML and CSS, showcasing projects,
 
 🎨 Custom CSS Styling — Fully styled with  CSS (no frameworks)
 
-⚡ Fast load time — no JS dependencies or heavy assets
 
-🧱 Tech Stack
 
 HTML
 
